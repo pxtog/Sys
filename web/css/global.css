@@ -1,0 +1,258 @@
+#login{
+
+    z-index: 10;
+
+    height: 300px;
+    width: 300px;
+
+    padding: 30px;
+    
+    overflow: hidden;
+    
+    border-radius: 60px;
+
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    
+    background-color: #851519;
+    color: #fff;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    margin-top: -180px;
+    margin-left: -180px;
+    
+}
+#fotter{
+
+    z-index: 10;
+
+    padding: 5px;
+
+    color: #333;
+    font-size: 12px;
+    
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 15px;
+    
+    background-color: #f7f7f7;
+    border-top:1px solid #cccccc;
+
+}
+#header{
+
+    z-index: 10;
+
+    padding: 5px;
+
+    background-color: #851519;
+    color: #fff;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+    height: 30px;
+
+}
+#container{
+
+    z-index: 10;
+
+    padding: 0px 33px 0px 33px;
+    
+    background-color: #fff;
+    
+    position: absolute;
+    top: 50px;
+    left: 7px;
+    right: 7px;
+    bottom: 30px;
+    
+    display: -webkit-flex;
+    display: flex; 
+
+    flex-flow:  row wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    
+}
+#containerStatic{
+
+    z-index: 10;
+
+    padding: 0px 33px 0px 33px;
+    
+    background-color: #fff;
+    
+    position: absolute;
+    top: 50px;
+    left: 7px;
+    right: 7px;
+    bottom: 30px;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    
+}
+
+.opcion{
+    display: -webkit-flex;
+    display: flex;
+    
+    flex-flow:  row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+    margin: 10px;
+    cursor: pointer;
+    
+    min-height: 75px;
+    min-width: 225px;
+}
+
+.seleccion{
+    background-color: #fff;
+}
+.seleccion:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.search{
+
+    height: 40px;
+
+    margin: 0px 0px 5px 0px;
+    padding-left: 5px;
+
+    border-width: 0px;
+    border-bottom: 1px solid #f0f0f0;
+    
+    outline: none;
+    width: 100%;
+
+}
+.input{
+    
+    height: 40px;
+    
+    margin: 5px 0px 5px 0px;
+    padding-left: 5px;
+    
+    border-width: 0px;
+    
+    font-size: 11pt;
+    
+    outline: none;
+    width: 100%;
+    
+}
+.button{
+    
+    height: 40px;
+    
+    margin: 5px 0px 5px 0px;
+    
+    border: 1px solid #fbfbfb;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    
+    background-color: #fff;
+    
+    outline: none;
+    width: 100%;
+    
+}
+.button:hover{
+    
+    background-color: #f9f9f9;
+    cursor: pointer;
+    
+}
+
+.separador{
+    
+    width: 1px;
+    border: 1px solid #fff;
+    
+}
+
+body { 
+    background-color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    background-repeat: repeat;
+}
+
+.tituloGrande{
+    
+    font-size: 33pt;
+    font-weight: normal;
+    
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    
+    text-align: center;
+    
+}
+.titulo{
+    
+    font-size: 19pt;
+    font-weight: normal;
+    
+    color: #fff;
+    font-family: 'Helvetica Neue', sans-serif;
+    
+}
+
+.titulo2Grande{
+    
+    font-size: 33pt;
+    font-weight: normal;
+    
+    color: #444;
+    font-family: 'Helvetica Neue', sans-serif;
+    
+    text-align: center;
+    
+}
+.titulo2{
+    
+    font-size: 19pt;
+    font-weight: normal;
+    
+    color: #666;
+    font-family: 'Helvetica Neue', sans-serif;
+    
+}
+
+.textoMediano{
+    font-size: 14px;
+}
+.textoMedianoNegrita{
+    font-size: 14px;
+    font-weight: bold;
+}
+.textoNormal{
+    font-size: 11px;
+}
+
+.textoGrande{
+    font-size: 14pt;
+}

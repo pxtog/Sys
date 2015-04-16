@@ -1,0 +1,55 @@
+.passOculto{
+    border: 0px solid #fff;
+    padding: 5px;
+    font-size: 17pt;
+    color: #851519;
+    outline: none; 
+    margin: 20px;
+    text-align: center;
+}
+.reloj{
+    transform: translateZ(52px); 
+    transform-style: preserve-3d;
+}
+
+#contenedorReloj{
+    font-size: 27pt; 
+    color: #666; 
+    text-align: center; 
+    font-family: 'Helvetica Neue',sans-serif; 
+}
+#contenedorSaludo{
+    
+    z-index: 10;
+
+    height: 200px;
+    
+    overflow: hidden;
+    
+    position: absolute;
+    top: 50%;
+    
+    left: 0px;
+    right: 0px;
+    
+    margin-top: -100px;
+    
+    text-align: center;
+    
+}
+
+.div100{
+    width: 100%;
+}
+.marginTB{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.map {
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px; 
+}
